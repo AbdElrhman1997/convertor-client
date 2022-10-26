@@ -1,26 +1,6 @@
 {
   "cards": [
     {
-      "id": 23,
-      "image": "images/card-icon-20.png",
-      "title": "PDF to Word",
-      "category": "PDF Tools",
-      "categorysty": "dec",
-      "type": "application/pdf",
-      "link": "/detail/23",
-      "desc": "Convert PDF files to Word (doc, docx) and make them available for editing"
-    },
-    {
-      "id": 24,
-      "image": "images/card-icon-21.png",
-      "title": "Word to PDF",
-      "category": "PDF Tools",
-      "categorysty": "dec",
-      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "link": "/detail/24",
-      "desc": "Convert Word files (doc, docx) to PDF"
-    },
-    {
       "id": 25,
       "image": "images/card-icon-21.png",
       "title": "Minify CSS",
@@ -79,6 +59,26 @@
       "type": "",
       "link": "/HTMLformatter",
       "desc": "Beaufity and Format your CSS files"
+    },
+    {
+      "id": 24,
+      "image": "images/card-icon-21.png",
+      "title": "Word to PDF",
+      "category": "PDF Tools",
+      "categorysty": "dec",
+      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "link": "/detail/24",
+      "desc": "Convert Word files (doc, docx) to PDF"
+    },
+    {
+      "id": 23,
+      "image": "images/card-icon-20.png",
+      "title": "PDF to Word",
+      "category": "PDF Tools",
+      "categorysty": "dec",
+      "type": "application/pdf",
+      "link": "/detail/23",
+      "desc": "Convert PDF files to Word (doc, docx) and make them available for editing"
     }
   ]
 }

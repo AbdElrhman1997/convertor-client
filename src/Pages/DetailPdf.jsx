@@ -32,7 +32,7 @@ export default function DetailPdf() {
         console.log(cardType)
 
             if (cardType ==  'application/pdf') {
-                axios.post('http://localhost:8080/api/officetopdf')
+                axios.post('https://convertor-server.herokuapp.com/api/officetopdf')
                 .then(async (res) =>{
                     setFileLoading(false)
                     console.log(res.status)
@@ -50,7 +50,7 @@ export default function DetailPdf() {
                 })
             }
             else {
-                fetch('http://localhost:8080/api/fileUpload' , {
+                fetch('https://convertor-server.herokuapp.com/api/fileUpload' , {
                 method: 'POST',
                 body:formData
                 })
@@ -83,7 +83,6 @@ export default function DetailPdf() {
         setpickFile(false);
         if(selectedFile.type === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' || selectedFile.type === 'application/msword'){
             saveAs(responseSave , `new${Date.now()}.pdf`)
-
         }
         else if(selectedFile.type === 'application/pdf' ){
             saveAs(responseSave , `new${Date.now()}.docx`)
